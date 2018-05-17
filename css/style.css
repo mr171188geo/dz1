@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F5F4EF;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	font-size: 14px;
+}
+
+a {   
+	color: #C74451;
+	text-decoration: none;
+	border-bottom: 1px solid #C74451;
+	transition: all .5s ease-out;
+}
+
+a:hover,
+a:focus {
+	background: #C74451;
+	color: #fff;
+}
+
+.link-black {
+	color: #000;
+	border: none;
+}
+ b
+.link-black:hover,
+.link-black:focus {
+	color: #C74451;
+	background-color: transparent;
+}
+
+.container {
+	width: 55%; 
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+h1 + p {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.box {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.box h2 {
+	margin: 0;
+}
